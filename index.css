@@ -51,5 +51,18 @@ img {
     font-size: 15px;
     font-weight: 500;
     text-transform: uppercase;
-    text-align: lef;
+}
+
+.speakers footer {
+    background-color: #22333B;
+    color: white;
+    margin: 60px -12px -12px;
+    padding: 12px;
+    text-align: center;
+}
+
+.speaker-title {
+    box-sizing: border;
+    margin-top: -100px;
+    text-align: right;
 }
