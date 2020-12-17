@@ -11,9 +11,17 @@ img {
     max-width: 100%;
 }
 
-.topnav {
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
     background-color: #333;
+}
+
+li {
+    float: left;
+    border-right: 1 px solid #bbb;
 }
 
 .topnav a {
