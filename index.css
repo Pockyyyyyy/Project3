@@ -54,6 +54,25 @@ img {
     margin-right: 5px;
 }
 
+.big1 {
+    font-size: 50px;
+    background-color: #333;
+    width: 18%;
+    color: white;
+}
+
+.big2 {
+    font-size: 50px;
+    background-color: #333;
+    width: 15%;
+    color: white;
+}
+
+.h1title {
+    padding
+    border-bottom: 3px solid #22333B;
+}
+
 .author-img {
     border-radius: 50%;
     height: auto;
