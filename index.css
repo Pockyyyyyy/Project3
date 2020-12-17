@@ -68,8 +68,8 @@ img {
 
 .speaker-title {
     box-sizing: border;
-    margin-top: -150px;
-    margin-left: 130px;
+    margin-top: -140px;
+    margin-left: 140px;
     text-align: left;
     color: white;
 }
@@ -86,4 +86,23 @@ img {
 
 .speakers {
     background-size: 30%;
+}
+
+@media (min-width: 375px) {
+    .speakers {
+        display: block;
+        margin-right: 12px;
+        margin-left: 12px;
+        width: max(420px, 46%);
+    }
+}
+
+@media (min-width: 1280px) {
+    .speakers {
+        display: inline-block;
+        margin-right: 12px;
+        margin-left: 12px;
+        vertical-align: top;
+        width: max(420px, 46%);
+    }
 }
