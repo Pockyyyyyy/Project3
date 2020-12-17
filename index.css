@@ -88,12 +88,28 @@ img {
     background-size: 30%;
 }
 
-@media (min-width: 375px) {
-    .speakers {
-        display: block;
-        margin-right: 12px;
-        margin-left: 12px;
-        width: max(420px, 46%);
+@media (max-width: 575px) {
+    .author-img {
+        display: inline-block;
+        vertical-align: middle;
+        margin-bottom: auto;
+    }
+
+    .speakers footer {
+        background-color: #22333B;
+        color: white;
+        font-size: 12px;
+        text-align: center;
+        margin: 20px -12px 10px;
+    }
+
+    .speaker-title {
+        box-sizing: border;
+        margin-top: -110px;
+        margin-left: 140px;
+        text-align: left;
+        font-size: 10px;
+        color: white;
     }
 }
 
