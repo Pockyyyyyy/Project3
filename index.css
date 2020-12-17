@@ -49,7 +49,7 @@ img {
 .author-company {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 300;
     text-transform: uppercase;
 }
 
@@ -61,7 +61,7 @@ img {
 .speakers footer {
     background-color: #22333B;
     color: white;
-    margin: 40px -12px 10px;
+    margin: 20px -12px 10px;
     padding: 12px;
     text-align: left;
 }
@@ -85,6 +85,15 @@ img {
 }
 
 .speakers {
+    background-size: 30%;
+}
+
+.speakers a {
+    color: white;
+    text-decoration: wavy underline;
+}
+
+.speakers:hover {
     background-size: 30%;
 }
 
