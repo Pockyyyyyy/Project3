@@ -11,17 +11,17 @@ img {
     max-width: 100%;
 }
 
-ul {
+.nav {
+    box-sizing: border;
+    padding: 15px;
+}
+
+.topnav {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
-}
-
-li {
-    float: left;
-    border-right: 1 px solid #bbb;
 }
 
 .topnav a {
@@ -43,6 +43,12 @@ li {
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
+}
+
+.title {
+    box-sizing: border;
+    padding: 15px;
+    margin-top: -50px;
 }
 
 .author-img {
