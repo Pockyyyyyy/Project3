@@ -53,16 +53,21 @@ img {
     text-transform: uppercase;
 }
 
+.speakers,
+.speakers fotter {
+    border-radius: 0 0 6px 6px;
+}
+
 .speakers footer {
     background-color: #22333B;
     color: white;
-    margin: 60px -12px -12px;
+    margin: 60px -12px 10px;
     padding: 12px;
-    text-align: center;
+    text-align: left;
 }
 
 .speaker-title {
     box-sizing: border;
-    margin-top: -100px;
+    margin-top: -130px;
     text-align: right;
 }
