@@ -90,11 +90,11 @@ img {
 
 .speakers a {
     color: white;
-    text-decoration: wavy underline;
+    text-decoration: none;
 }
 
-.speakers:hover {
-    background-size: 30%;
+.speakers a:hover {
+    text-decoration: wavy underline;
 }
 
 @media (max-width: 575px) {
