@@ -29,3 +29,10 @@ img {
     background-color: #ddd;
     color: black;
 }
+
+.u-list-reset {
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
